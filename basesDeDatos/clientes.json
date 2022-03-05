@@ -1,0 +1,55 @@
+[
+    {
+        "_id": "6184ec59852ec7b643be8740",
+        "id": "CL0001",
+        "nombre": "Lidia Samper",
+        "dni": "20875083F",
+        "edad": 21,
+        "compras": [
+            "JY0005",
+            "JY0001"
+        ]
+    },
+    {
+        "_id": "6184ec59852ec7b643be8741",
+        "id": "CL0002",
+        "nombre": "Latifa Rosales",
+        "dni": "80529550H",
+        "edad": 21,
+        "compras": [
+            "JY0001",
+            "JY0005"
+        ]
+    },
+    {
+        "_id": "6184ec59852ec7b643be8742",
+        "id": "CL0003",
+        "nombre": " Guadalupe Gordo ",
+        "dni": "60926471T",
+        "edad": 56,
+        "compras": [
+            "JY0005"
+        ]
+    },
+    {
+        "_id": "6184ec59852ec7b643be8743",
+        "id": "CL0004",
+        "nombre": "Claúdia Rosado ",
+        "dni": "72385263P",
+        "edad": 43,
+        "compras": [
+            "JY0001"
+        ]
+    },
+    {
+        "_id": "6184ec59852ec7b643be8744",
+        "id": "CL0005",
+        "nombre": "Eider Del-Rio ",
+        "dni": "72385263P",
+        "edad": 49,
+        "compras": [
+            "JY0005",
+            "JY0005"
+        ]
+    }
+]

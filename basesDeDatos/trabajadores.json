@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "6189173b0f784faeb08bff4e",
+        "id": "TR0001",
+        "nombre": "MATILDE SAIZ MOYANO",
+        "dni": "40543967G",
+        "edad": 45,
+        "rol": [
+            {
+                "id": 5,
+                "nombre": "vendedor"
+            },
+            {
+                "id": 4,
+                "nombre": "contable"
+            }
+        ]
+    },
+    {
+        "_id": "6189173b0f784faeb08bff4f",
+        "id": "TR0002",
+        "nombre": "MARIA MAGDALENA GUZMAN CARVAJAL",
+        "dni": "79417067E",
+        "edad": 50,
+        "rol": [
+            {
+                "id": 3,
+                "nombre": "finanzas"
+            },
+            {
+                "id": 5,
+                "nombre": "vendedor"
+            }
+        ]
+    },
+    {
+        "_id": "6189173b0f784faeb08bff50",
+        "id": "TR0003",
+        "nombre": "SALVADOR AMADOR NICOLAS",
+        "dni": "11121698W",
+        "edad": 40,
+        "rol": [
+            {
+                "id": 2,
+                "nombre": "artesano"
+            },
+            {
+                "id": 1,
+                "nombre": "jefe"
+            },
+            {
+                "id": 5,
+                "nombre": "vendedor"
+            }
+        ]
+    }
+]

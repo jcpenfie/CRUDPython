@@ -1,0 +1,76 @@
+[
+    {
+        "_id": "6184ec90e0c7b990f8c444f2",
+        "id": "JY0001",
+        "nombre": "Rubí Verde",
+        "descripcion": "Ruby verde en anillo de oro básico",
+        "estado": "en venta",
+        "precio": 300,
+        "cantidadStock": 10,
+        "proveedores": [
+            "PR0001",
+            "PR0004"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444f3",
+        "id": "JY0002",
+        "nombre": "Latón de lujo",
+        "descripcion": "Sin grabado",
+        "estado": "fabricando",
+        "precio": 300,
+        "proveedores": [
+            "PR0003"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444f4",
+        "id": "JY0003",
+        "nombre": "Piedra Escarlata",
+        "descripcion": "En anillo bañado de oro básico",
+        "estado": "revisión",
+        "precio": 467,
+        "proveedores": [
+            "PR0005",
+            "PR0004",
+            "PR0001"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444f5",
+        "id": "JY0004",
+        "nombre": "Belleza de lujo",
+        "descripcion": "Pendiente de lujo con diamantes incrustados",
+        "estado": "fabricado",
+        "precio": 5683,
+        "proveedores": [
+            "PR0001",
+            "PR0004"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444f6",
+        "id": "JY0005",
+        "nombre": "Diamante Rojo",
+        "descripcion": "Pulsera con diamante incrustado",
+        "estado": "en venta",
+        "precio": 549,
+        "cantidadStock": 5,
+        "proveedores": [
+            "PR0003",
+            "PR0005"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444f7",
+        "id": "JY0006",
+        "nombre": "Destellos de lunas",
+        "descripcion": "En collar de plata",
+        "estado": "fabricando",
+        "precio": 300,
+        "proveedores": [
+            "PR0003",
+            "PR0002"
+        ]
+    }
+]

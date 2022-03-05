@@ -1,0 +1,144 @@
+// Crear base de datos
+use('Joyeria');
+
+
+// Insertar productos iniciales.
+db.Joyas.insertMany([
+  {
+    "id": "JY0001",
+    "nombre": "Rubí Verde",
+    "descripcion": "Ruby verde en anillo de oro básico",
+    "estado": "en venta",
+    "precio": 300,
+    "cantidadStock": 10,
+    "proveedores": [
+      "PR0001",
+      "PR0004"
+    ]
+  },
+  {
+    "id": "JY0002",
+    "nombre": "Latón de lujo",
+    "descripcion": "Sin grabado",
+    "estado": "fabricando",
+    "precio": 300,
+    "cantidadStock": 2,
+    "proveedores": [
+      "PR0003"
+    ]
+  },
+  {
+    "id": "JY0003",
+    "nombre": "Piedra Escarlata",
+    "descripcion": "En anillo bañado de oro básico",
+    "estado": "revisión",
+    "precio": 467,
+    "cantidadStock": 20,
+    "proveedores": [
+      "PR0005",
+      "PR0004",
+      "PR0001"
+    ]
+  },
+  {
+    "id": "JY0004",
+    "nombre": "Belleza de lujo",
+    "descripcion": "Pendiente de lujo con diamantes incrustados",
+    "estado": "fabricado",
+    "precio": 5683,
+    "cantidadStock": 10,
+    "proveedores": [
+      "PR0001",
+      "PR0004"
+    ]
+  },
+  {
+    "id": "JY0005",
+    "nombre": "Diamante Rojo",
+    "descripcion": "Pulsera con diamante incrustado",
+    "estado": "en venta",
+    "precio": 549,
+    "cantidadStock": 5,
+    "proveedores": [
+      "PR0003",
+      "PR0005"
+    ]
+  },
+  {
+    "id": "JY0006",
+    "nombre": "Destellos de lunas",
+    "descripcion": "En collar de plata",
+    "estado": "fabricando",
+    "precio": 300,
+    "cantidadStock": 10,
+    "proveedores": [
+      "PR0003",
+      "PR0002"
+    ]
+  }
+]);
+
+db.Trabajadores.insertMany([
+  {
+    "_id": "6189173b0f784faeb08bff4e",
+    "id": "TR0001",
+    "nombre": "MATILDE SAIZ MOYANO",
+    "dni": "40543967G",
+    "edad": 45,
+    "rol": [
+      {
+        "id": 5,
+        "nombre": "vendedor",
+        "sueldo": 935
+      },
+      {
+        "id": 4,
+        "nombre": "contable",
+        "sueldo": 1112
+      }
+    ]
+  },
+  {
+    "_id": "6189173b0f784faeb08bff4f",
+    "id": "TR0002",
+    "nombre": "MARIA MAGDALENA GUZMAN CARVAJAL",
+    "dni": "79417067E",
+    "edad": 50,
+    "rol": [
+      {
+        "id": 3,
+        "nombre": "finanzas",
+        "sueldo": 1000
+      },
+      {
+        "id": 5,
+        "nombre": "vendedor",
+        "sueldo": 935
+      }
+    ]
+  },
+  {
+    "_id": "6189173b0f784faeb08bff50",
+    "id": "TR0003",
+    "nombre": "SALVADOR AMADOR NICOLAS",
+    "dni": "11121698W",
+    "edad": 40,
+    "rol": [
+      {
+        "id": 2,
+        "nombre": "artesano",
+        "sueldo": 1340
+      },
+      {
+        "id": 1,
+        "nombre": "jefe",
+        "sueldo": 1500
+      },
+      {
+        "id": 5,
+        "nombre": "vendedor",
+        "sueldo": 935
+      }
+    ]
+  }
+]);

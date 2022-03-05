@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "6184ec90e0c7b990f8c444f8",
+        "id": "PR0001",
+        "empresa": "Pumuyimu S.L.",
+        "nif": "97589081211",
+        "provee": [
+            "pidras preciosas",
+            "cuarzo"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444f9",
+        "id": "PR0002",
+        "empresa": "Waqeñelu S.L.",
+        "nif": "72756571005",
+        "provee": [
+            "oro",
+            "plata",
+            "diamantes"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444fa",
+        "id": "PR0003",
+        "empresa": "Mimivivo S.L.",
+        "nif": "85993761205",
+        "provee": [
+            "piedras preciosas",
+            "oro"
+        ]
+    },
+    {
+        "_id": "6184ec90e0c7b990f8c444fb",
+        "id": "PR0004",
+        "empresa": "Famebaca S.A.",
+        "nif": "64449381009",
+        "provee": [
+            "metal"
+        ]
+    }
+]
